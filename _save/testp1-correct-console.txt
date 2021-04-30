@@ -1,0 +1,28 @@
+** Welcome to UIC Bank v2.0 **
+Enter bank filename> 
+** Inputting account data...
+** Checking arrays...
+1. 7, $250.98
+5. 9921, $1250.75
+** Processing user commands...
+Enter command (+, -, ?, ^, *, x): 
+Account 7: balance $250.98
+Account 34: balance $-10.00
+Account 123: balance $5000000.25
+Account 467: balance $24.08
+Account 9921: balance $1250.75
+Enter command (+, -, ?, ^, *, x): 
+Account 123: balance $5000000.25
+Enter command (+, -, ?, ^, *, x): 
+** Invalid command, try again...
+Enter command (+, -, ?, ^, *, x): 
+Account 9921: balance $1750.75
+Enter command (+, -, ?, ^, *, x): 
+Account 34: balance $-20.00
+Enter command (+, -, ?, ^, *, x): 
+Account 123: balance $5000000.25
+Enter command (+, -, ?, ^, *, x): 
+** Invalid account, transaction ignored
+Enter command (+, -, ?, ^, *, x): 
+** Saving account data...
+** Done **

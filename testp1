@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+#
+# Simple test script for project 02, part 01
+#
+rm -f testp1-bankv2-1.txt &> /dev/null
+cp testp1-original-bankv2-1.txt testp1-bankv2-1.txt &> /dev/null
+
+g++ -g -Wall main.cpp -o main
+
+./main < testp1-input.txt > testp1-console.txt
+
+echo " "
+echo "** Console output differences **"
+echo " "
+diff testp1-console.txt testp1-correct-console.txt
+
+echo " "
+echo "** File output differences **"
+echo " "
+diff testp1-bankv2-1.txt testp1-correct-file.txt
